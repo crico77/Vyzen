@@ -14,7 +14,7 @@ export default function CatalogoPage() {
         <CatalogGrid />
          <div className="mt-12 border-t border-border pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Comercializadora ESAN SAS. Todos los derechos reservados.
+            © {new Date().getFullYear()} VYZEN. Todos los derechos reservados.
           </p>
           <p className="text-center text-xs text-muted-foreground mt-2">
             <a
