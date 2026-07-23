@@ -15,11 +15,11 @@ export function FloatingActionButton() {
           <Button
             size="icon"
             className="rounded-full shadow-lg bg-[#E4405F] hover:bg-[#E4405F]/90"
-            onClick={() => window.open("https://instagram.com", "_blank")}
+            onClick={() => window.open("https://www.instagram.com/vyzen.optics/", "_blank")}
           >
             <Instagram className="w-5 h-5" />
           </Button>
-          <Button
+          {/*<Button
             size="icon"
             className="rounded-full shadow-lg bg-[#1877F2] hover:bg-[#1877F2]/90"
             onClick={() => window.open("https://facebook.com", "_blank")}
@@ -32,7 +32,7 @@ export function FloatingActionButton() {
             onClick={() => window.open("https://twitter.com", "_blank")}
           >
             <Twitter className="w-5 h-5" />
-          </Button>
+          </Button>*/}
           <Button
             size="icon"
             className="rounded-full shadow-lg bg-[#25D366] hover:bg-[#25D366]/90"
